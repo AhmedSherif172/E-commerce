@@ -1,10 +1,8 @@
 import axios from "axios";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { useQuery } from "react-query";
 
 export default function Brands() {
-  const [brands, setBrands] = useState([]);
-
   function getAllBrands() {
     return axios.get("https://ecommerce.routemisr.com/api/v1/brands");
   }

@@ -3,7 +3,6 @@ import React, { useEffect, useState } from "react";
 import CartProduct from "../CartProduct/CartProduct";
 import Swal from "sweetalert2";
 import { Link } from "react-router-dom";
-import { date } from "yup";
 
 export default function Cart() {
   const [isLoadind, setIsLoading] = useState(false);

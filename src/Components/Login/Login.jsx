@@ -1,7 +1,7 @@
-import axios, { Axios } from 'axios';
+import axios from 'axios';
 import { useFormik } from 'formik';
 import React, { useContext, useState } from 'react';
-import { Link, Navigate, useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import * as Yup from "yup"
 import { authcontext } from '../../contexts/Authconext/Authcontext';
 
